@@ -55,7 +55,7 @@
       "type": "shape",
       "from": {"data": "states"},
       "encode": {
-        "enter": { "tooltip": {"signal": "'Amount' + datum.total"}},
+        "enter": { "tooltip": {"signal": "'State' + datum.State_Abv + ' | Amount:' + datum.total"}},
         "update": { "fill": {"scale": "color", "field": "total"} },
         "hover": { "fill": {"value": "red"} }
       },
